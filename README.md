@@ -1,4 +1,4 @@
-### 지향하는 방향: 최대한 덜 귀찮게 간단한 형식으로!
+### 지향하는 방향: 최대한 간단하게 덜 귀찮은 형식으로!
 
 # Github을 이용한 작업 순서
 1. 이슈를 작성한다.
@@ -13,7 +13,7 @@
 - [Bug](https://github.com/olivejua/git-commit-convention/issues/new?assignees=&labels=Type%3A+Bug&template=bug.yml)
    - 정말 자잘한 버그일 수 있다. 커밋 제목만으로도 설명이 가능하다면 이슈 작성을 하지 않아도 된다!
    - 하지만 앞으로 같은 버그가 일어날 가능성이 있다거나 간단한 버그가 아닐 경우에는 작성하는 것이 좋다.
-- Custom Template
+- [Custom Template](https://github.com/olivejua/git-commit-convention/issues/new?assignees=&labels=&template=custom.md&title=)
   
 ### Labels
 |name|description|
