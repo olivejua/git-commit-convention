@@ -2,7 +2,7 @@ name: Bug
 description: 버그가 발생할 경우 사용한다.
 title: "[Bug]: "
 labels: ["Type: Bug"]
-assignees: ''
+assignees: ""
 body:
   - type: markdown
     attributes:
