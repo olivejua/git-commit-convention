@@ -1,0 +1,29 @@
+name: Enhancement
+description: 기능 개선, 보완, 추가할 경우 사용한다.
+labels: ["Type: Enhancement"]
+body:
+  - type: dropdown
+    id: is-required
+    attributes:
+      label: 필수 여부
+      options:
+        - required
+        - optional
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 개선하기 전 상황을 설명해주세요!
+      description: 간단하게 작성하셔도 좋고, 상세하게 작성하면 더 좋습니다.
+      placeholder: ex) 게시글 작성 로직에 Exception 처리를 하지 않아 예외 파악을 하는데 시간이 걸림
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 개선점들을 어떻게 구현할지 설명해주세요!
+      description: 작업내용을 간단하게 작성하셔도 좋고, To-do 형식의 작업목록을 작성하면 더 좋습니다.
+      placeholder: ex) 각 상황에 맞는 Custom Exception 메시지를 적용하여 처리를 함
+    validations:
+      required: true
