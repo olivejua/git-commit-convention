@@ -1,3 +1,57 @@
+
+
+# Github을 이용한 작업 순서
+1. 이슈를 작성한다.
+2. 이슈 기반의 작업하여 커밋을 한다.
+3. 작업을 완료하면 이슈를 종료한다.
+
+
+# 1. 이슈를 작성한다.
+
+## Templates
+- Feature
+   - ㅇ 
+- Document
+- Bug
+   - 정말 자잘한 버그일 수 있다! 커밋 제목만으로도 설명이 가능하다면 이슈 작성을 하지 않아도 된다!
+   - 하지만 앞으로 같은 버그가 일어날 가능성이 있다거나 간단한 버그가 아닐 경우에는 작성하는 것이 좋다.
+- Enhancement
+- Question
+
+
+## Labels
+|name|description|
+|----|---------|
+|Priority: Critical|우선순위: 매우 높음|
+|Priority: High|우선순위: 높음|
+|Priority: Medium|우선순위: 중간|
+|Priority: Low|우선순위: 낮음|
+|Status: Confirmed|작업 상태: 확인됨|
+|Status: Feedback Needed|작업 상태: 피드백 필요|
+|Status: In Progress|작업 상태: 진행 중|
+|Status: Complete|작업 상태: 완료|
+|Status: On Hold|작업 상태: 보류|
+|Status: Review Needed|작업 상태: 리뷰 필요|
+|Status: Wont do/fix|작업 상태: 대응하지 않거나 작업을 계속 하지 않음|
+|Type: Bug|타입: 버그 관련|
+|Type: Feature|타입: 기능 구현|
+|Type: Question|타입: 협의가 필요한 질문|
+|Type: Idea|타입: 제안 또는 적용할법한 참고할 거리|
+|Type: Enhancement|타입: 새로운 기능 요청 또는 기능 개선 사항|
+|Type: Help Needed|타입: 이 이슈에 대해 도움이 필요|
+
+
+
+
+# 2. 커밋을 한다.
+
+# 3. 이슈를 종료한다.
+별거없다. 
+close 버튼을 눌러 종료하자! 
+
+
+
+
 # Commit
 
 ## Convention
@@ -40,29 +94,6 @@ footer
 
 # Issue
 
-## Templates
-- Bug
-
-## Labels
-|name|description|
-|----|---------|
-|Priority: Critical|우선순위: 매우 높음|
-|Priority: High|우선순위: 높음|
-|Priority: Medium|우선순위: 중간|
-|Priority: Low|우선순위: 낮음|
-|Status: Confirmed|작업 상태: 확인됨|
-|Status: Feedback Needed|작업 상태: 피드백 필요|
-|Status: In Progress|작업 상태: 진행 중|
-|Status: Complete|작업 상태: 완료|
-|Status: On Hold|작업 상태: 보류|
-|Status: Review Needed|작업 상태: 리뷰 필요|
-|Status: Wont do/fix|작업 상태: 대응하지 않거나 작업을 계속 하지 않음|
-|Type: Bug|타입: 버그 관련|
-|Type: Feature|타입: 기능 구현|
-|Type: Question|타입: 협의가 필요한 질문|
-|Type: Idea|타입: 제안 또는 적용할법한 참고할 거리|
-|Type: Enhancement|타입: 새로운 기능 요청 또는 기능 개선 사항|
-|Type: Help Needed|타입: 이 이슈에 대해 도움이 필요|
 
 
 
