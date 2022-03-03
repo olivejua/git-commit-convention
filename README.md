@@ -8,11 +8,12 @@
 ## 1. 이슈를 작성한다.
 
 ### Templates
-- Feature
-- Enhancement
-- Bug
+- [Feature](https://github.com/olivejua/git-commit-convention/issues/new?assignees=&labels=Type%3A+Feature&template=feature.yml)
+- [Enhancement](https://github.com/olivejua/git-commit-convention/issues/new?assignees=&labels=Type%3A+Enhancement&template=enhancement.yml)
+- [Bug](https://github.com/olivejua/git-commit-convention/issues/new?assignees=&labels=Type%3A+Bug&template=bug.yml)
    - 정말 자잘한 버그일 수 있다. 커밋 제목만으로도 설명이 가능하다면 이슈 작성을 하지 않아도 된다!
    - 하지만 앞으로 같은 버그가 일어날 가능성이 있다거나 간단한 버그가 아닐 경우에는 작성하는 것이 좋다.
+- Custom Template
   
 ### Labels
 |name|description|
