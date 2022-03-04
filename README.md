@@ -1,18 +1,18 @@
-### 지향하는 방향: 최대한 간단하게 덜 귀찮은 형식으로!
+### 지향하는 방향: 최대한 간단하게! 부담없이 작성해야 이슈가 활성화된다...
 
 # Github을 이용한 작업 순서
-1. 이슈를 작성한다.
-2. 이슈 기반의 작업하여 커밋을 한다.
-3. 작업을 완료하면 이슈를 종료한다.
+1. 이슈를 작성합니다.
+2. 이슈 기반의 작업하여 커밋을 합니다.
+3. 작업을 완료하면 이슈를 종료합니다.
 
-## 1. 이슈를 작성한다.
+## 1. 이슈 작성
 
 ### Templates
 - [Feature](https://github.com/olivejua/git-commit-convention/issues/new?assignees=&labels=Type%3A+Feature&template=feature.yml)
 - [Enhancement](https://github.com/olivejua/git-commit-convention/issues/new?assignees=&labels=Type%3A+Enhancement&template=enhancement.yml)
 - [Bug](https://github.com/olivejua/git-commit-convention/issues/new?assignees=&labels=Type%3A+Bug&template=bug.yml)
-   - 정말 자잘한 버그일 수 있다. 커밋 제목만으로도 설명이 가능하다면 이슈 작성을 하지 않아도 된다!
-   - 하지만 앞으로 같은 버그가 일어날 가능성이 있다거나 간단한 버그가 아닐 경우에는 작성하는 것이 좋다.
+   - 정말 자잘한 버그일 경우 또는 커밋 제목만으로도 설명이 가능하다면 이슈 작성을 꼭 하지 않아도 됩니다.
+   - 하지만 앞으로 같은 버그가 일어날 가능성이 있다거나 간단한 버그가 아닐 경우에는 작성하여 공유하는것이 좋습니다.
 - [Custom Template](https://github.com/olivejua/git-commit-convention/issues/new?assignees=&labels=&template=custom.md&title=)
   
 ### Labels
@@ -38,7 +38,7 @@
 
 
 
-## 2. 커밋을 한다.
+## 2. 커밋
 ### Convention
 ```
 type: subject (#issue number)
@@ -61,23 +61,22 @@ footer
 |test|테스트코드 작성|게시글 작성 테스트 코드 구현, 수정 등|
 
 #### Convention: subject
-- 한글로 작성한다.
-- 길이는 50글자 내로 제한한다.
-- 제목 끝에 마침표를 넣지 않는다.
+- 한글로 작성합니다.
+- 길이는 50글자 내로 제한합니다.
+- 제목 끝에 마침표를 넣지 않습니다.
 
 #### Convention: body (Optional)
-- 대부분 커밋제목만으로 내용을 파악할 수 있다. 따라서 부연설명이 필요할 경우만 작성한다.
+- 대부분 커밋제목만으로 내용을 파악할 수 있으므로 부연설명이 필요할 경우만 작성합니다.
 - 어떻게 (X) / 무엇을, 왜 (O)
-- 제목과 구분되기 때문에 한칸 띄어 작성한다.
+- 제목과 구분되기 때문에 한칸 띄어 작성합니다.
 
 #### Convention: footer (Optional)
-- 선택사항이니 반드시 작성하지 않아도 된다.
-- 주로 이슈트래킹 용도로 사용한다.
+- 선택사항이니 반드시 작성하지 않아도 됩니다.
+- 주로 이슈트래킹 용도로 사용합니다.
 
 
-## 3. 이슈를 종료한다.
-별거없다.  
-close 버튼을 눌러 종료하자! 
+## 3. 이슈 종료
+close 버튼을 눌러 종료합니다.
 
 
 * * *
